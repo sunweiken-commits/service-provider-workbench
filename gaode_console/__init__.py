@@ -1,0 +1,1 @@
+"""Gaode partner console package."""
