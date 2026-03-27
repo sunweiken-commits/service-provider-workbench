@@ -54,7 +54,7 @@ def export_dataframe(frame: pd.DataFrame, slug: str, title: str) -> dict[str, st
   <title>{title}</title>
   <style>
     body {{
-      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      font-family: "Noto Sans CJK SC", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Heiti SC", sans-serif;
       background: #f8fafc;
       color: #111827;
       margin: 0;
@@ -156,7 +156,7 @@ def export_competitor_poster(frame: pd.DataFrame, title: str = "竞品动态海�
   <style>
     body {{
       margin: 0;
-      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      font-family: "Noto Sans CJK SC", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Heiti SC", sans-serif;
       background:
         radial-gradient(circle at top left, rgba(245,158,11,0.24), transparent 24%),
         radial-gradient(circle at top right, rgba(6,182,212,0.18), transparent 20%),
@@ -184,6 +184,7 @@ def export_competitor_poster(frame: pd.DataFrame, title: str = "竞品动态海�
       font-size: 58px;
       line-height: 1.08;
       letter-spacing: -0.03em;
+      font-family: "Noto Sans CJK SC", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", "Heiti SC", sans-serif;
     }}
     .desc {{
       max-width: 980px;
