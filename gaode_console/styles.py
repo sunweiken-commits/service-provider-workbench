@@ -23,6 +23,15 @@ def apply_styles() -> None:
                 radial-gradient(circle at 80% 0%, rgba(8, 145, 178, 0.12), transparent 22%),
                 linear-gradient(180deg, #faf7f0 0%, #eef3f8 46%, #f7fafc 100%);
         }
+        header[data-testid="stHeader"] {
+            display: none;
+        }
+        div[data-testid="stToolbar"] {
+            display: none;
+        }
+        div[data-testid="stDecoration"] {
+            display: none;
+        }
         .block-container {
             padding-top: 1.5rem;
             padding-bottom: 2rem;
