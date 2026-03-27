@@ -8,7 +8,7 @@ from gaode_console.styles import apply_styles
 
 
 st.set_page_config(
-    page_title="高德服务商增长工作台",
+    page_title="服务商工作台",
     page_icon="A",
     layout="wide",
     initial_sidebar_state="expanded",
